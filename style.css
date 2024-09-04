@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html{
+  overflow-x: hidden;
+}
+header {
+  padding: 1rem;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 222;
+}
+.logo h1 {
+  font-size: 35px;
+  padding-left: 4rem;
+}
+.logo .mobile {
+  font-size: 13px;
+  font-weight: normal;
+}
+.nav ul {
+  display: flex;
+  gap: 4rem;
+}
+.nav ul li a {
+  color: black;
+  font-size: 19px;
+  font-weight: 300;
+}
+.icon i {
+  background-color: lightgrey;
+  padding: 0.5rem;
+}
+.icon p {
+  padding-left: 5.5rem;
+  margin-top: -0.5rem;
+  position: relative;
+  height: 1rem;
+  color: red;
+}
+main {
+  width: 100%;
+  height: 30rem;
+  background-color: rgba(211, 211, 211, 0.87);
+}
+
+main .text h2 {
+  padding-top: 13rem;
+  padding-left: 4rem;
+  font-size: 20px;
+  color: red;
+}
+main .text h1 {
+  padding-left: 3.9rem;
+  padding-top: 0.5rem;
+}
+
+main p {
+  padding-left: 4rem;
+  padding-top: 1rem;
+  font-size: 13px;
+}
+main button {
+  margin-left: 4rem;
+  margin-top: 1rem;
+  background-color: red;
+  padding: 1rem;
+  color: white;
+  border-radius: 3rem;
+  border: none;
+  width: 7rem;
+}
+main .image {
+  margin-top: -17rem;
+  margin-left: 34rem;
+}
+.category {
+  width: 100%;
+  height: 20rem;
+}
+.category h1 {
+  padding-top: 2rem;
+  padding-left: 4rem;
+}
+.category section {
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.category section .box {
+  width: 10rem;
+  height: 10rem;
+  /* background-color: azure; */
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+.category section .image {
+  width: 10rem;
+  height: 8rem;
+  /* background-color: red; */
+  position: absolute;
+}
+.category section .image img {
+  position: relative;
+  width: 8rem;
+  margin-top: 0.5rem;
+}
+.category section p {
+  position: absolute;
+  padding-top: 8.5rem;
+  padding-left: 0.5rem;
+}
+.just {
+  width: 100%;
+  height: 20rem;
+}
+.just section {
+  margin-left: 7rem;
+}
+.just section .boxes {
+  width: 33rem;
+  height: 20rem;
+  background-color: lightgrey;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  /* position: absolute; */
+}
+.just section .boxes p {
+  padding-left: 6rem;
+  padding-top: 2rem;
+}
+.just section .boxes h3 {
+  padding-top: 3.5rem;
+  position: absolute;
+  padding-left: 7.5rem;
+}
+.just section .boxes button {
+  position: absolute;
+  margin-top: 5.5rem;
+  margin-left: 10rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: red;
+  color: white;
+}
+.just section .boxes .image {
+  width: 33rem;
+  height: 15rem;
+  /* background-color: red; */
+  margin-top: 6rem;
+  position: absolute;
+}
+.just section .boxes .image img {
+  width: 19rem;
+  margin-top: -2rem;
+  margin-left: 3.5rem;
+}
+.latest {
+  width: 100%;
+  height: 25rem;
+  margin-top: 2rem;
+}
+.latest h1 {
+  padding-left: 4rem;
+  font-size: 30px;
+}
+.latest p {
+  padding-left: 68rem;
+  margin-top: -2rem;
+  font-size: 20px;
+}
+.latest section {
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.latest section .boxes {
+  width: 13rem;
+  height: 18rem;
+  display: inline-flex;
+  background-color: lightgray;
+  margin-left: 2rem;
+}
+.latest section .image {
+  height: 12rem;
+  width: 13rem;
+  /* background-color: red; */
+}
+.latest section .image img {
+  width: 10.5rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+.latest section .icon {
+  position: absolute;
+  margin-top: 12rem;
+  color: orange;
+}
+.latest section h3 {
+  position: absolute;
+  padding-top: 14rem;
+  padding-left: 1.5rem;
+}
+.latest section p {
+  position: absolute;
+  padding-top: 17.5rem;
+  right: 73rem;
+}
+.count {
+  width: 100%;
+  height: 29.5rem;
+  background-color: lightgrey;
+}
+.count button {
+  margin-top: 5rem;
+  margin-left: 25rem;
+  padding: 0.5rem;
+  width: 8rem;
+  background-color: red;
+  border: none;
+  color: white;
+}
+.count h1 {
+  padding-left: 22rem;
+  padding-top: 1rem;
+}
+.count h2 {
+  padding-left: 25rem;
+  padding-top: 0.5rem;
+  font-size: 30px;
+}
+.count section {
+  width: 23rem;
+  height: 7rem;
+  /* background-color: red; */
+  margin-left: 21rem;
+  margin-top: 1rem;
+}
+.count section .box {
+  width: 3.5rem;
+  height: 3rem;
+  background-color: darkgrey;
+  display: inline-flex;
+  margin-left: 1rem;
+  border-radius: 1rem;
+}
+.count section .box p {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+.count .image {
+  width: 40rem;
+  height: 28rem;
+  /* background-color: red; */
+  margin-top: -19rem;
+  margin-left: 41.5rem;
+}
+.count .image img {
+  width: 40rem;
+  margin-top: 5rem;
+  margin-left: -2rem;
+}
+.popular {
+  width: 100%;
+  height: 50rem;
+}
+.popular h1 {
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+.popular .nav {
+  margin-left: 60rem;
+  margin-top: -1.5rem;
+}
+.popular .nav ul li a {
+  font-size: 18px;
+  font-weight: bold;
+}
+.popular .nav ul .acc li a {
+  color: red;
+}
+.popular section {
+  width: 100%;
+  height: 40rem;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+.popular section .box {
+  width: 15rem;
+  height: 20rem;
+  display: inline-flex;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.popular section .image {
+  width: 15rem;
+  height: 13rem;
+  /* background-color: red; */
+}
+.popular section .image img {
+  width: 12rem;
+  margin-top: 2rem;
+  margin-left: 1rem; 
+}
+.popular section .icon {
+  position: absolute;
+  margin-top: 14rem;
+  margin-left: 1rem;
+  color: orange;
+}
+.popular h3 {
+  position: absolute;
+  padding-top: 16rem;
+  padding-left: 2rem;
+  font-size: 20px;
+}
+.popular p {
+  position: absolute;
+  padding-left: 4rem;
+  padding-top: 17.5rem;
+}
+.events{
+  width: 100%;
+  height: 25rem;
+}
+.events h1{
+  padding-top: 1rem;
+  padding-left: 5rem;
+  font-size: 30px;
+}
+.events p{
+  padding-left: 65rem;
+  margin-top: -2rem;
+}
+.events section{
+  width: 80%;
+  height: 25rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.events section .box{
+  width: 20rem;
+  height: 16rem;
+  background-color: rgba(211, 211, 211, 0.801);
+  display: inline-flex;
+  margin-left: 2rem;
+}
+.events section .image{
+  width: 20rem;
+  height: 12rem;
+  /* background-color: red; */
+}
+.events section .image img{
+  width: 17rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.events section p{
+  position: absolute;
+  margin-left: -64.9rem;
+  margin-top: 13rem;
+}
+.events section h3{
+  position: absolute;
+  font-size: 20px;
+  padding-top: 14rem;
+}
+.big{
+  width: 100%;
+  height: 29rem;
+  background-color: lightgrey;
+}
+.big p{
+  padding-top: 5rem;
+  padding-left: 40rem;
+}
+.big h3{
+  padding-top: 1rem;
+  padding-left: 34rem;
+  font-size: 30px;
+}
+.big p.a{
+  margin-top: -4.5rem;
+  padding-left: 42rem;
+  font-size: 30px;
+  color: red;
+} 
+.big button{
+  margin-left: 40.5rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border-radius: 4rem;
+  border: none;
+  background-color: red;
+  color: white;
+  width: 6rem;
+}
+.big section{
+  margin-left: 20rem;
+  margin-top: 2rem;
+}
+.big section .box{
+  width: 15rem;
+  height: 11rem;
+  background-color: lightgrey;
+  display: inline-flex;
+
+}
+.big .box .image img{
+  width: 11rem;
+  position: absolute;
+  /* margin-top: -0.3rem; */
+  margin-left: 1.8rem;
+}
+.fee{
+  height: 12rem;
+  width: 100%;
+  background-color: lightgrey;
+  margin-top: 3rem;
+}
+.fee section{
+  margin-left: 3rem;
+}
+.fee section .box{
+  width: 23rem;
+  height: 10rem;
+  display: inline-flex;
+  /* background-color: red; */
+  margin-left: 3rem;
+  margin-top: 0.7rem;
+}
+.fee section .box h1{
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+
+.fee section .box p{
+  position: absolute;
+  padding-top: 5.5rem;
+  padding-left: 2rem;
+  font-size: 20px;
+}
+footer{
+  width: 100%;
+  height: 15rem;
+  margin-top: 3rem;
+
+}
+footer section{
+  display: flex;
+  gap: 4rem;
+  margin-left: 7rem;
+}
+footer .box{
+  margin-top: 1rem;
+  padding-top: 2rem;
+
+}
+footer .box .app{
+  width: 13rem;
+  height: 4rem;
+  background-color: lightgrey;
+  display: inline-flex;
+  margin-top: 0.5rem;
+}
+footer .box .app i{
+  margin-left: 1rem;
+  margin-top: 0.7rem;
+  font-size: 30px;
+
+}
+footer li{
+  padding-top: 0.5rem;
+}
+footer .box .app p{
+  position: absolute;
+  padding-left: 4rem;
+  padding-top: 0.3rem;
+}
+footer .box .app h1{
+  padding-top: 1.2rem;
+  padding-left: 1rem;
+}
+.copy{
+  width: 100%;
+  height: 3rem;
+  background-color: lightgrey;
+}
+.copy .copyright{
+  padding-top: 1rem;
+  padding-left: 3rem;
+}
+.copy h2{
+  padding-left: 30rem;
+  margin-top: -1.5rem;
+}
